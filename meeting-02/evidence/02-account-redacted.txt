@@ -1,0 +1,12 @@
+=== CLOUD ACCOUNT INFORMATION ===
+Provider: IDCloudHost
+Service: VPS
+Server hostname: tiasrv
+Operating system: Ubuntu 24.04.5 LTS
+
+Account credentials:
+Passwords and access tokens are not recorded in this file.
+
+Cloud account and billing details:
+Refer to the IDCloudHost dashboard.
+Account ID and billing details are intentionally omitted.

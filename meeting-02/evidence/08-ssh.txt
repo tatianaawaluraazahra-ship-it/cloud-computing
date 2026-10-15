@@ -1,2 +1,15 @@
-Command: systemctl is-active ssh
-Result: active
+=== SSH SERVICE EVIDENCE ===
+Hostname: tiasrv
+Operating system: Ubuntu 24.04.5 LTS
+
+Command:
+systemctl is-active ssh
+
+Observed result:
+active
+
+Interpretation:
+The SSH service was active on the VPS when checked.
+
+Note:
+An active SSH service does not by itself prove that a remote SSH login from the client succeeded.

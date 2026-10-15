@@ -1,0 +1,13 @@
+=== RESOURCE GROUP ===
+Primary module environment: Microsoft Azure
+Actual practice provider: IDCloudHost
+
+Azure Resource Group:
+Not created or verified in this practice.
+
+IDCloudHost resource:
+VPS used for Linux server administration.
+
+Note:
+An IDCloudHost VPS is not an Azure Resource Group.
+Azure-specific provisioning evidence must be completed if required by the lecturer.

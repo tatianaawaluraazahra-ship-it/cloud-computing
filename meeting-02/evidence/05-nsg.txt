@@ -1,0 +1,15 @@
+=== NETWORK SECURITY ===
+Practice provider: IDCloudHost
+
+Azure Network Security Group:
+Not created or verified in this practice.
+
+SSH service:
+Previously verified as active on the VPS.
+
+Network security rules:
+The cloud firewall or security rules have not been documented here.
+They must be checked in the IDCloudHost dashboard or applicable firewall configuration.
+
+Security note:
+Do not assume SSH access is restricted to a specific source IP until the actual rules are inspected.

@@ -1,0 +1,15 @@
+=== VIRTUAL NETWORK ===
+Practice provider: IDCloudHost
+Server hostname: tiasrv
+Operating system: Ubuntu 24.04.5 LTS
+
+Observed network interface: ens3
+Observed private IP: 10.246.113.3/24
+Observed default gateway: 10.246.113.1
+
+Azure Virtual Network:
+Not created or verified in this practice.
+
+Note:
+The network interface and private IP above are observed on the VPS.
+They do not prove that an Azure Virtual Network was created.

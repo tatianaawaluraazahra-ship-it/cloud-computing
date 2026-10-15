@@ -1,0 +1,17 @@
+=== CLEANUP AND COST AWARENESS ===
+Provider: IDCloudHost
+Server hostname: tiasrv
+
+Current decision:
+The VPS is retained for the next cloud computing module and project deployment.
+
+Azure resources:
+No Azure Resource Group, Virtual Network, or VM cleanup is claimed in this evidence.
+
+Cost awareness:
+Check the IDCloudHost dashboard for the current VPS status, billing period, and pricing.
+Confirm whether billing continues while the VPS is stopped or running.
+
+Cleanup status:
+The VPS has not been deleted because it is intended for continued project use.
+This file documents the decision to retain the server, not proof of complete resource cleanup.
