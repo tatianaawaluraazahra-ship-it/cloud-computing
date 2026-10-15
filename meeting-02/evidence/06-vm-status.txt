@@ -1,0 +1,8 @@
+Hostname: tiasrv
+Operating system: Ubuntu 24.04.5 LTS
+Kernel: 6.8.0-139-generic
+CPU load at observation: 0.00, 0.00, 0.00
+Memory: 1.9 GiB total, approximately 287 MiB used
+Root disk: 19 GiB total, 1.9 GiB used, approximately 10%
+Git version: 2.43.0
+Provider: IDCloudHost

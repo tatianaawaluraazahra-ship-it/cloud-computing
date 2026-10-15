@@ -1,0 +1,3 @@
+Command: nginx -v
+Result: Command 'nginx' not found.
+Status: Nginx was not found at the time of testing.

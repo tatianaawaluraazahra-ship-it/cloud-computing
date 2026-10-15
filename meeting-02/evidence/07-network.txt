@@ -1,0 +1,18 @@
+=== IP ADDRESS ===
+lo: 127.0.0.1/8
+ens3: 10.246.113.3/24
+Interface ens3 status: UP
+
+=== IP ROUTE ===
+default via 10.246.113.1 dev ens3
+10.246.113.0/24 dev ens3
+1.1.1.1 via 10.246.113.1 dev ens3
+
+=== INTERNET CONNECTIVITY ===
+Command: ping -c 4 1.1.1.1
+Result: 4 packets transmitted, 4 received, 0% packet loss
+Average round-trip time: 14.798 ms
+
+=== DNS RESOLUTION ===
+Command: getent hosts ubuntu.com
+Result: DNS resolution successful; IPv6 addresses returned.
