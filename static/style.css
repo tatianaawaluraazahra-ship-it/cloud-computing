@@ -1,37 +1,16 @@
-:root {
-  font-family: sans-serif;
-  color-scheme: dark;
-  background: #07121f;
-  color: #eaf3fb;
-}
-
 body {
-  margin: 0;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
 }
-
-.shell {
-  width: min(600px, 90%);
-  padding: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.05);
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: inline-block;
 }
-
-.badge {
-  padding: 0.3rem 0.6rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 20px;
-  font-size: 0.8rem;
-}
-
-a {
-  padding: 0.5rem 1rem;
-  background: #1185c4;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-right: 5px;
-}
+h1 { color: #2c3e50; }
+p { color: #555; }

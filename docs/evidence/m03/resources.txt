@@ -2,7 +2,7 @@
 2
 === MEMORY ===
                total        used        free      shared  buff/cache   available
-Mem:           1.9Gi       355Mi       664Mi       1.0Mi       1.1Gi       1.6Gi
+Mem:           1.9Gi       355Mi       633Mi       1.0Mi       1.1Gi       1.6Gi
 Swap:             0B          0B          0B
 === DISK ===
 Filesystem      Size  Used Avail Use% Mounted on
