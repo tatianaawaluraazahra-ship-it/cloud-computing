@@ -1,0 +1,20 @@
+● cc-m03.service - PTI 2802 M03 Flask Application
+     Loaded: loaded (/etc/systemd/system/cc-m03.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-10-18 10:32:15 UTC; 272ms ago
+   Main PID: 9545 (gunicorn)
+      Tasks: 2 (limit: 2315)
+     Memory: 15.6M (peak: 28.5M)
+        CPU: 273ms
+     CGroup: /system.slice/cc-m03.service
+             └─9545 /home/Tatianaawalura/cloud-computing/.venv/bin/python3 /home/Tatianaawalura/cloud-computing/.venv/bin/gunicorn --workers 1 --threads 2 --bind 127.0.0.1:8000 --timeout 30 --access-logfile - --error-logfile - app:app
+
+Oct 18 10:32:15 tiasrv gunicorn[9556]:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Oct 18 10:32:15 tiasrv gunicorn[9556]:   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+Oct 18 10:32:15 tiasrv gunicorn[9556]:     return _bootstrap._gcd_import(name[level:], package, level)
+Oct 18 10:32:15 tiasrv gunicorn[9556]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Oct 18 10:32:15 tiasrv gunicorn[9556]:   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+Oct 18 10:32:15 tiasrv gunicorn[9556]:   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+Oct 18 10:32:15 tiasrv gunicorn[9556]:   File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+Oct 18 10:32:15 tiasrv gunicorn[9556]: ModuleNotFoundError: No module named 'app'
+Oct 18 10:32:15 tiasrv gunicorn[9556]: No module named 'app'
+Oct 18 10:32:15 tiasrv gunicorn[9556]: [2026-10-18 10:32:15 +0000] [9556] [INFO] Worker exiting (pid: 9556)

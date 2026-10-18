@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cloud Project — M03</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="shell">
+    <span class="badge">PTI 2802 · M03</span>
+    <h1>First VPS Deployment</h1>
+    <p class="lead">Project Inception - Tatiana Awalura (tiasrv)</p>
+
+    <dl>
+      <div><dt>Environment</dt><dd>{{ app_env }}</dd></div>
+      <div><dt>Host</dt><dd>{{ hostname }}</dd></div>
+    </dl>
+
+    <nav>
+      <a href="/health">Health Endpoint</a>
+      <a href="/api/info">API Info</a>
+    </nav>
+  </main>
+</body>
+</html>
